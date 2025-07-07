@@ -8,7 +8,8 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     line-height: 1.6;
     color: var(--text-color);
     scroll-behavior: smooth;
@@ -297,4 +298,19 @@ body {
     background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
     z-index: 1001;
     transition: width 0.1s ease;
+}
+
+.citation {
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+.no-bootstrap-style {
+    all: unset; /* Entfernt alle Standardstile */
+    color: inherit; /* Stellt sicher, dass die Textfarbe erhalten bleibt */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+a {
+    color: inherit; /* Erbt die Farbe vom übergeordneten Element */
 }
