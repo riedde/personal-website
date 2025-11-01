@@ -1,0 +1,288 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Dennis Ried
+  tagline: Juniorprofessor für Musikwissenschaft
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: forschung@dennisried.de
+  phone:
+  timezone: Europa/Frankfurt # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship:
+  website: https://dennisried.de/ # Include the full website URL, including "http://" or "https://".
+  linkedin: dennis-ried-a75814148
+  xing: 
+  github: riedde
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: # Specify your full Bluesky handle
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: https://fedihum.org/@riedde # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title: Sprachen
+    info:
+    - idiom: Deutsch
+      level: Muttersprache
+
+    - idiom: Englisch
+      level: Fließend
+
+  interests:
+    title: Interessen
+    info:
+    - item: Musik hören
+      link:
+
+    - item: Musik machen
+      link:
+    
+    - item: Musik fördern
+      link:
+
+career-profile:
+  title: Profil
+  summary: |
+    **Digitale Forschungsdaten** mit großer Erschließungstiefe und von *hoher Qualität* helfen uns, über die Grenzen der eigenen Forschungsfrage hinaus, valide Ergebnisse zu erzielen. Deshalb unterstütze ich den Aufbau von Datenbeständen und die Diskurse der Fachbereiche Digitalen Musikwissenschaft und Digital Humanities.
+    
+    Durch den Einsatz wissenschaftlicher Expertise und technischer Fähigkeiten lassen sich Projekte wie das Online-Portal des Joachim-Raff-Archivs (JRA) und Baumann-Digital (BauDi) realisieren. In beiden Fällen handelt es sich um Projekte, in denen ein solides Datenmanagement, offene Kommunikation, wissenschaftliche Sorgfalt und anwendungsspezifische technische Lösungen die Qualität und Präsentation der Forschungnsdaten sicher stellen. Nur in Kombination können all diese Aspekte zu einem zeitgemäßen und wertvollen Ergebnis führen.
+
+    Meine Forschungsgebiete: Musikphilologie, Musik- und Text-Edition (v. a. Hybride/Digitale Edition), Online-Portale, Datenmodellierung (v. a. Metadaten), Forschungsdatenmanagement, Datentransformationsprozesse, Research Software Engineering, Forschungsdatenmanagement und -infrastrukturen.
+
+education:
+  title: Ausbildung
+  info:
+  - degree: Ruf nach Halle an der Saale (W1)
+    university: Martin-Luther-Universität Halle-Wittenberg
+    time: 2024
+    details: |
+      Juniorprofessur für Musikwissenschaft mit Schwerpunkt Musikedition und Digital Humanities
+  - degree: Doktor der Philosophie
+    university: Hochschule für Musik Karlsruhe 
+    time: 2017–2023
+    details: |
+      magna cum laude [1,6] (GPA: 3.7–3.8)
+  - degree: Master of Arts (Musikwissenschaft)
+    university: Hochschule für Musik Karlsruhe 
+    time: 2015–2017
+    details: |
+      Note: 1,1 (GPA: 3.9)
+  - degree: Bachelor of Arts (Musikwissenschaft)
+    university: Hochschule für Musik Karlsruhe 
+    time: 2014–2015
+    details: |
+      Note: 1,3 (GPA: 3.7)
+  - degree: Bakkalaureus Artium (Germanistik)
+    university: Karlsruher Institut für Technologie 
+    time: 2010–2014
+    details: |
+      Note: 1,3 (GPA: 3.7)
+
+skills:
+  title: Kompetenzen
+
+  toolset:
+  - name: TEI-XML
+    level: 85%
+
+  - name: MEI-XML
+    level: 95%
+
+  - name: XQuery
+    level: 90%
+
+  - name: XSLT
+    level: 75%
+
+  - name: TEI-ODD Schema
+    level: 85%
+
+  - name: RelaxNG
+    level: 75%
+
+  - name: Schematron
+    level: 80%
+
+  - name: GitLab CI/CD
+    level: 85%
+
+  - name: eXist-db
+    level: 95%
+
+  - name: Apache ANT
+    level: 90%
+
+  - name: Docker
+    level: 80%
+
+  - name: HTML 5
+    level: 95%
+
+  - name: CSS 3
+    level: 95%
+
+  - name: Bootstrap 5+
+    level: 80%
+
+  - name: Edirom Tools
+    level: 90%
+
+  - name: OxygenXML Frameworks
+    level: 70%
+
+  - name: LaTeX
+    level: 90%
+
+  - name: LilyPond (Notensatz)
+    level: 85%
+
+commitment:
+  title: Engagement
+  info:
+    - company: Metadata and Cataloging Interest Group
+      role: Administrative Co-chair
+      details: |
+        Internationale AG der Music Encoding Initiative (MEI)
+    
+    - company: Joachim-Raff-Archiv Lachen/SZ (CH)
+      role: Wissenschaftlicher Beirat
+      details: |
+        Beratung und wissenschaftliche Begleitung des digitalen Archivprojekts.
+    
+    - company: Virtueller Forschungsverbund Edirom (ViFE)
+      role: Mitglied
+      details: |
+        Forschungsverbund für digitale Musikwissenschaft am Musikwissenschaftlichen Seminar Detmold/Paderborn.
+    
+    - company: Fachgruppe Digitale Musikwissenschaft (DigMus)
+      role: Sprecher
+      details: |
+        Fachgruppe der Gesellschaft für Musikforschung (GfM)
+    
+    - company: Georg-Friedrich-Händel-Gesellschaft e. V.
+      role: Mitglied
+      details: |
+        Aufbau einer Infrastruktur für die digitale Händel-Forschung.
+    
+    - company: Arbeitsgemeinschaft für germanistische Edition (AGE)
+      role: Mitglied
+      details: |
+        Engagement in der wissenschaftlichen Gemeinschaft für Editionswissenschaft.
+    
+    - company: Dommusik-Förderverein Speyer e. V.
+      role: Schatzmeister
+      details: |
+        Verwaltung der Vereinsfinanzen und Unterstützung der Dommusik.
+
+experiences:
+  title: Berufserfahrung
+  info:
+  - role: Juniorprofessur für Musikwissenschaft mit Schwerpunkt Musikedition und Digital Humanities
+    time: 2025 - Present
+    company: Martin-Luther-Universität Halle-Wittenberg
+    details:
+  - role: Wissenschaftlicher Mitarbeiter (DH)
+    time: Sep. 2021–Okt. 2024
+    company: Universität Paderborn
+    details: |
+      Digital Humanist im DFG-Projekt "Henze-Digital".
+      Einrichtung und wissenschaftliche Betreuung von Tools und Workflows, Analyse wissenschaftlicher Anforderungen sowie Anpassung und Weiterentwicklung der WeGA-WebApp, Weiterentwicklung von TEI-Schemata, Schulung und Support.
+  - role: Wissenschaftlicher Mitarbeiter
+    time: Mai 2018–Aug. 2021
+    company: Max-Reger-Institut Karlsruhe
+    details: |
+      Mitarbeiter und sei 2019 Editor im Akademieprojekt "Reger-Werkausgabe". Edition von Werken Max Regers, Struktureller Aufbau der Editionstools (Edirom), Forschungsdatenmanagement (Bestandsvalidierung, XML-Schemata und Dokumentation), Unterstützung in der Entwicklung und Programmierung neuer Features für das Max-Reger-Portal (MRP) und die RWA online
+  - role: Gesellschafter
+    time: Sep. 2015–Dez. 2020
+    company: Edition Lilienteich, Karlsruhe
+    details: |
+      Unternehmensverwaltung, Finanzen, Edition
+
+
+projects:
+  title: Projekte
+  intro: >
+    Projekte, an denen ich mitwirk(t)e.
+  assignments:
+  - title: Hallische Händel-Ausgabe
+    link: "#"
+    tagline: "Historisch-Kritische Gesamtausgabe der Werke Georg Friedrich Händels."
+
+  - title: Baumann-Digital
+    link: "https://baumann-digital.de"
+    tagline: "A responsive website template designed to help web developers/designers market their services."
+
+  - title: Joachim-Raff-Archiv online
+    link: "https://portal.raff-archiv.ch"
+    tagline: "Das digitale Online-Portal des Joachim-Raff-Archivs Lachen/SZ, Schweiz"
+  
+  - title: Henze-Digital
+    link: "https://henze-digital.zenmem.de/"
+    tagline: "Digitale Briefausgabe zu ausgewählter Korrespondenz von Hans Werner Henze."
+
+  - title: Reger-Werkausgabe
+    link: "https://www.reger-werkausgabe.de/"
+    tagline: "Historisch-Kritische Auswahlausgabe der Werke Max Regers."
+
+oss:
+  title: Open-Source-Software (Contribution)
+  intro: >
+    Beiträge zu Forschungssoftware, die Open Source verfügbar ist.
+  contributions:
+  - title: HenDi-WebApp
+    link: "https://github.com/Henze-Digital/HenDi-WebApp"
+    tagline: "Die Forschungssoftware von Henze-Digital. Sie stellt ein Derivat der WeGA-WebApp dar. Der Workflow zur Nachnutzung ist so angelegt, dass eine bidirektionale Weiterentwicklung der Ursprungssoftware und des Derivates gleichzeitg möglich ist."
+
+  - title: Edirom Online
+    link: "https://edirom.github.io/Edirom-Online/"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: WeGA-WebApp
+    link: "https://github.com/edirom/wega-WebApp"
+    tagline: "Die Forschungssoftware der Carl Maria von Weber-Gesamtausgabe, die bei Henze-Digital nachgenutzt wurde. (Mitarbeit: Kleinere Impulse und minimalbeiträge zur Verbesserung der Software)"
+  
+  - title: portal-app (Bauman-Digital)
+    link: "https://github.com/Baumann-Digital/portal-app"
+    tagline: "Eine rudimentäre Software für ein Forschungsportal, das TEI- und MEI-XML-Daten in Beziehung setzen und digitalisate einbinden kann. Der Fokus liegt auf Katalogdaten und Quellenbeschreibungen."
+  
+  - title: portal-app (Joachim-Raff-Archive)
+    link: "https://github.com/Joachim-Raff-Archiv/portal-app"
+    tagline: "Ein Derivat der portal-app von Baumann-Digital"
+
+publications:
+  title: Publikationen
+  intro: |
+    Eine Liste der Publikationen wird zeitnah bereitgestellt.
+  papers:
+  - title: Titel
+    authors: Dennis Ried
+    doi:
+    link: "#"
+
+conferences:
+  title: Konferenzen
+  intro: |
+    Eine Liste der Konferenzen wird zeitnah bereitgestellt.
+  events:
+  - name: 13. Filmmusiktage
+    place: Halle(Saale)
+    time: 7.–8. Nov. 2025
+    details: Diskutant in der Podiumsdiskussion
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
