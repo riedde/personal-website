@@ -15,7 +15,7 @@ sidebar:
   # Sidebar links
   email: forschung@dennisried.de
   phone:
-  timezone: Europa/Frankfurt # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  timezone: Europe/Frankfurt # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
   website: https://dennisried.de/ # Include the full website URL, including "http://" or "https://".
   linkedin: dennis-ried-a75814148
@@ -279,7 +279,7 @@ conferences:
   intro: |
     Eine Liste der Konferenzen wird zeitnah bereitgestellt.
   events:
-  - name: 13. Filmmusiktage
+  - name: 18. Filmmusiktage
     place: Halle(Saale)
     time: 7.–8. Nov. 2025
     details: Diskutant in der Podiumsdiskussion
