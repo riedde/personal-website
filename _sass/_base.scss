@@ -261,6 +261,12 @@ p {
       margin-bottom: 15px;
     }
   }
+  .conferences-name {
+    font-style: oblique;
+  }
+  .conferences-institution {
+    font-variant: small-caps;
+  }
 }
 
 .skillset {
@@ -390,8 +396,9 @@ p {
   }
 }
 
-/* ======= Publications Toggle ======= */
-.publication-hidden {
+/* ======= Publications and Conferences Toggle ======= */
+.publication-hidden,
+.conference-hidden {
   display: none;
 }
 

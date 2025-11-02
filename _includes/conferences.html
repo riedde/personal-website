@@ -16,23 +16,53 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for conferences in conferences.events %}
-  <div class="item">
-    {% if conferences.link %}
-      <li><a href="{{ conferences.link }}">{{ conferences.name }}</a>{% if conferences.place %}, {{ conferences.place }}{% endif %}</li>
-    {% else %}
-      <li>{{ conferences.name }}{% if conferences.place %}, {{ conferences.place }}{% endif %}</li>
-    {% endif %}
-    <div class="publication-authors">{{ conferences.time }}</div>
+  {%- comment -%} Current date for comparison {%- endcomment -%}
+  {% assign today = "now" | date: "%Y-%m-%d" %}
+  {% assign future_count = 0 %}
+  {% assign past_count = 0 %}
   
-  {% if conferences.details %}
-    <div class="publication-conference">
-      {{ conferences.details | markdownify }}
-    </div><!--//details-->
+  {%- comment -%} First pass: count future and past events based on hide-after date {%- endcomment -%}
+  {% for conference in conferences.events %}
+    {% if conference.hide-after %}
+      {% assign hide_date = conference.hide-after | date: "%Y-%m-%d" %}
+      {% if hide_date >= today %}
+        {% assign future_count = future_count | plus: 1 %}
+      {% else %}
+        {% assign past_count = past_count | plus: 1 %}
+      {% endif %}
+    {% else %}
+      {%- comment -%} If no hide-after date, treat as future event {%- endcomment -%}
+      {% assign future_count = future_count | plus: 1 %}
     {% endif %}
-  </div><!--//item-->
-
   {% endfor %}
+
+  {% for conference in conferences.events %}
+    {%- comment -%} Show future events always, hide past events with conference-hidden class {%- endcomment -%}
+    {% assign is_past = false %}
+    {% if conference.hide-after %}
+      {% assign hide_date = conference.hide-after | date: "%Y-%m-%d" %}
+      {% if hide_date < today %}
+        {% assign is_past = true %}
+      {% endif %}
+    {% endif %}
+    <div class="item {% if is_past %}conference-hidden{% endif %}">
+      <div><span class="conferences-name">{% if conference.link %}<a href="{{ conference.link }}" target="_blank">{{ conference.name }}</a>{% else %}{{ conference.name }}{% endif %}</span>{% if conference.time %}, {{ conference.time }}{% endif %}{% if conference.institution %}, <span class="conferences-institution">{{ conference.institution }}</span>{% endif %}{% if conference.place %}, {{ conference.place }}{% endif %}</div>
+  
+      {% if conference.details %}
+      <div class="publication-conference" style="font-style: oblique;">
+        {{ conference.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+    </div><!--//item-->
+  {% endfor %}
+
+  {% if past_count > 0 %}
+  <div class="text-center" style="margin-top: 20px;">
+    <button id="toggleConferences" class="extend-button">
+      <i class="fas fa-angle-down"></i> Vergangene anzeigen ({{ past_count }})
+    </button>
+  </div>
+  {% endif %}
 
 </section><!--//section-->
 {% endif %}

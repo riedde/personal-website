@@ -29,4 +29,35 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
+  
+  // Conferences toggle functionality
+  const toggleConferencesButton = document.getElementById('toggleConferences');
+  
+  if (toggleConferencesButton) {
+    let isConferencesExpanded = false;
+    
+    toggleConferencesButton.addEventListener('click', function() {
+      const hiddenConferences = document.querySelectorAll('.conference-hidden');
+      const icon = this.querySelector('i');
+      
+      if (isConferencesExpanded) {
+        // Verstecke die vergangenen Konferenzen wieder
+        hiddenConferences.forEach(function(conf) {
+          conf.style.display = 'none';
+        });
+        icon.className = 'fas fa-angle-down';
+        this.innerHTML = '<i class="fas fa-angle-down"></i> Vergangene anzeigen (' + 
+          hiddenConferences.length + ')';
+        isConferencesExpanded = false;
+      } else {
+        // Zeige alle Konferenzen
+        hiddenConferences.forEach(function(conf) {
+          conf.style.display = 'block';
+        });
+        icon.className = 'fas fa-angle-up';
+        this.innerHTML = '<i class="fas fa-angle-up"></i> Vergangene ausblenden';
+        isConferencesExpanded = true;
+      }
+    });
+  }
 });

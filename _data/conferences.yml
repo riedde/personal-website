@@ -6,3 +6,34 @@ events:
   place: Halle(Saale)
   time: 7.–8. Nov. 2025
   details: Diskutant in der Podiumsdiskussion
+  link: "https://filmmusiktage.de/filmmusiktage/kongress/"
+  hide-after: 2025-11-08
+- name: "Mit wenig viel erreichen: Kreative Infrastruktur-Lösungen für große und kleine DH-Projekte"
+  time: 10. Nov. 2025
+  details: "Gastvortrag in der Ringvorlesung »Digital Humanities im Fokus«"
+  link: "https://www.uni-rostock.de/universitaet/kommunikation-und-aktuelles/presse-und-kommunikationsstelle/veranstaltungskalender/detailansicht/n/jun-prof-dr-dennis-ried-martin-luther-universitaet-halle-wittenberg-mit-wenig-viel-erreichen-kreative-infrastruktur-loesungen-fuer-grosse-und-kleine-dh-projekte-249675/"
+  institution: Universität Rostock
+  hide-after: 2025-11-10
+- name: "Mensch – Maschine – Miteinander. Aspekte digitalen Arbeitens in der Musikwissenschaft"
+  time: 17. Dez. 2025
+  details: "Gastvortrag im Kolloquium"
+  link: "https://www.uni-goettingen.de/de/musikwissenschaftliches+kolloquium+im+wintersemester+2025/26/703119.html"
+  institution: Universität Göttingen
+  hide-after: 2025-12-17
+- name: ",Lieber Hans,…‘: Der Briefdialog Henze-Enzensberger als Werkstatt für die Arbeit an der Oper La Cubana"
+  time: 22. Jan. 2026
+  details: "Gastvortrag im Kolloquium"
+  institution: Folkwang Universität Essen
+  hide-after: 2026-01-22
+- name: "Was geben wir eigentlich heraus? Ein Blick auf digitale Editionen"
+  time: 11.-14. Feb. 2026
+  details: "Vortrag zur 21. internationalen Tagung der Arbeitsgemeinschaft für germanistische Edition »…herausgegeben von… Editores und Edenda«"
+  link: "https://www.ag-edition.org/?page_id=28"
+  institution: Universität Erlangen-Nürnberg
+  hide-after: 2026-02-14
+- name: "Arbeiten mit XML"
+  time: 8.–12. Sep. 2025
+  details: "Workshop zur 16. Edirom Summer School"
+  link: "https://ess.upb.de"
+  institution: Universität Paderborn
+  hide-after: 2025-09-12
